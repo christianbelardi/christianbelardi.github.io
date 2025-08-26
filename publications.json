@@ -1,0 +1,88 @@
+{
+  "publications": [
+    {
+      "title": "Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning",
+      "authors": [
+        "Justin Lovelace",
+        "Christian Belardi",
+        "Sofian Zalouk",
+        "Adhitya Polavaram",
+        "Srivatsa Kundurthy",
+        "Kilian Q. Weinberger"
+      ],
+      "venue": "To Appear at the Conference on Language Modeling 2025",
+      "thumbnail": "images/thumbs/coming-soon.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      }
+    },
+    {
+      "title": "Improving Multislice Electron Ptychography with a Generative Prior",
+      "authors": [
+        "Christian K. Belardi*",
+        "Chia-Hao Lee*",
+        "Yingheng Wang",
+        "Justin Lovelace",
+        "Kilian Q. Weinberger",
+        "David A. Muller",
+        "Carla P. Gomes"
+      ],
+      "venue": "Computer Vision for Materials Science Workshop at the International Conference on Computer Vision 2025",
+      "thumbnail": "images/thumbs/mep-diffusion.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2507.17800",
+        "code": "",
+        "project": ""
+      }
+    },
+    {
+      "title": "Pre-training Large Memory Language Models with Internal and External Knowledge",
+      "authors": [
+        "Linxi Zhao",
+        "Sofian Zalouk",
+        "Christian K. Belardi",
+        "Justin Lovelace",
+        "Jin Peng Zhou",
+        "Kilian Q. Weinberger",
+        "Yoav Artzi",
+        "Jennifer J. Sun"
+      ],
+      "venue": "arXiv Preprint",
+      "thumbnail": "images/thumbs/lmlm.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2505.15962",
+        "code": "https://github.com/kilian-group/LMLM",
+        "project": ""
+      }
+    },
+    {
+      "title": "On Speeding Up Language Model Evaluation",
+      "authors": [
+        "Jin Peng Zhou*",
+        "Christian K. Belardi*",
+        "Ruihan Wu*",
+        "Travis Zhang",
+        "Carla P. Gomes",
+        "Wen Sun",
+        "Kilian Q. Weinberger"
+      ],
+      "venue": "International Conference on Learning Representations 2025",
+      "thumbnail": "images/thumbs/banditeval.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2407.06172",
+        "code": "https://github.com/kilian-group/banditeval",
+        "project": ""
+      }
+    }
+  ]
+}
