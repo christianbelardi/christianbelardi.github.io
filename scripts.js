@@ -1,6 +1,5 @@
 // Global variables
 let allPublications = [];
-let showingSelected = true;
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
@@ -13,11 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     section.style.animationDelay = `${index * 0.1}s`;
   });
   
-  // Add event listener for toggle button
-  const toggleButton = document.getElementById('toggle-publications');
-  if (toggleButton) {
-    toggleButton.addEventListener('click', togglePublications);
-  }
 });
 
 // Load publications from JSON file
@@ -32,7 +26,7 @@ function loadPublications() {
     .then(data => {
       console.log("Publications loaded successfully:", data);
       allPublications = data.publications;
-      renderPublications(true);
+      renderPublications();
     })
     .catch(error => {
       console.error('Error loading publications:', error);
@@ -47,31 +41,15 @@ function displayFallbackPublications() {
   container.innerHTML = `Error loading publications.`;
 }
 
-// Toggle between showing all or selected publications
-function togglePublications() {
-  showingSelected = !showingSelected;
-  renderPublications(showingSelected);
-  
-  // Update button text
-  const toggleButton = document.getElementById('toggle-publications');
-  toggleButton.textContent = showingSelected ? 'Show All' : 'Show Selected';
-  const toggleHeader = document.getElementById('toggle-header');
-  toggleHeader.textContent = showingSelected ? 'Selected Publications' : 'All Publications';
-}
-
-// Render publications based on selection state
-function renderPublications(selectedOnly) {
+// Render selected publications only
+function renderPublications() {
   const publicationsContainer = document.getElementById('publications-container');
   publicationsContainer.innerHTML = '';
-  
-  const pubsToShow = selectedOnly ? 
-    allPublications.filter(pub => pub.selected === 1) : 
-    allPublications;
-  
-  pubsToShow.forEach(publication => {
-    const pubElement = createPublicationElement(publication);
-    publicationsContainer.appendChild(pubElement);
-  });
+
+  allPublications.forEach(publication => {
+      const pubElement = createPublicationElement(publication);
+      publicationsContainer.appendChild(pubElement);
+    });
 }
 
 // Create HTML element for a publication
