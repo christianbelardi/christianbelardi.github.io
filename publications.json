@@ -1,6 +1,24 @@
 {
   "publications": [
     {
+      "title": "Prescriptive Scaling Laws for Data Constrained Training",
+      "authors": [
+        "Justin Lovelace",
+        "Christian Belardi",
+        "Srivatsa Kundurthy",
+        "Shriya Sudhakar",
+        "Kilian Q. Weinberger"
+      ],
+      "venue": "arXiv",
+      "thumbnail": "images/thumbs/data-constrained-laws.png",
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/pdf/2605.01640",
+        "code": "",
+        "project": ""
+      }
+    },
+    {
       "title": "Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling",
       "authors": [
         "Christian Belardi",
@@ -33,29 +51,6 @@
       "links": {
         "pdf": "https://arxiv.org/pdf/2602.20528v1",
         "code": "https://github.com/justinlovelace/STAR-LDM",
-        "project": ""
-      }
-    },
-    {
-      "title": "Pre-training Large Memory Language Models with Internal and External Knowledge",
-      "authors": [
-        "Linxi Zhao",
-        "Sofian Zalouk",
-        "Christian K. Belardi",
-        "Justin Lovelace",
-        "Jin Peng Zhou",
-        "Ryan Thomas Noonan",
-        "Dongyoung Go",
-        "Kilian Q. Weinberger",
-        "Yoav Artzi",
-        "Jennifer J. Sun"
-      ],
-      "venue": "International Conference on Learning Representations 2026",
-      "thumbnail": "images/thumbs/lmlm.png",
-      "award": "",
-      "links": {
-        "pdf": "https://arxiv.org/pdf/2505.15962",
-        "code": "https://github.com/kilian-group/LMLM",
         "project": ""
       }
     },
